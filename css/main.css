@@ -1,0 +1,112 @@
+header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    height: 79px;
+    margin-bottom: 16px;
+}
+.header_wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.header_logo {
+    padding-top: 3px;
+    padding-left: 15px;
+}
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+body {
+    background: #f8f8f8;
+}
+.center_column {
+    max-width: 450px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content {
+    padding: 10px 15px;
+}
+.block-default {
+    background: #fff;
+    border: 1px solid #e7e7e7;
+}
+.btn-primary {
+    background-color: #2a5f8f;
+}
+.form-required label:after {
+    content: "*";
+    color: #F00;
+    margin-top: -5px;
+}
+.content > h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+h1 {
+    color: #2475c0;
+    font-size: 28px;
+}
+.recover-password {
+    line-height: 36px;
+}
+.checkbox > input[type="checkbox"] {
+    margin-left: 0;
+}
+.content .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.webim-app-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+.webim-app-buttons .android img {
+    height: 40px;
+}
+.bottom-navigation {
+    background-color: transparent;
+    border-width: 1px 0 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.bottom-navigation .navbar-brand {
+    font-size: 100%;
+}
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
+.flag-ico {
+    border: 1px solid #bbb;
+    display: inline-block;
+    height: 20px;
+    vertical-align: top;
+    width: 30px;
+}
+.flag-ico.ru {
+    background: url(../images/ru.png) center center no-repeat;
+}
+.flag-ico.en {
+    background: url(../images/us.png) center center no-repeat;
+}
+.flag-ico.he {
+    background: url(../images/il.png) center center no-repeat;
+}
+header .nav.navbar-right {
+    margin-top: 13px;
+    margin-right: 0px;
+}
+@media (max-width: 768px) {
+    .js-external-navigation {
+        background: rgb(255, 255, 255);
+        z-index: 999;
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+  }
