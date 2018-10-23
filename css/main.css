@@ -19,6 +19,9 @@ header {
 body {
     background: #f8f8f8;
 }
+.main_section {
+    min-height: 86vh;
+}
 .center_column {
     max-width: 450px;
     display: block;
